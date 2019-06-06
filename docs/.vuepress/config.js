@@ -8,11 +8,16 @@ module.exports = {
             { text: "默认", link: "/android/" },
           { text: "Android", link: "/android/" },
           { text: "ios", link: "/ios/" },
-          { text: "Web", link: "/web/" }
+          { text: "Web", link: "/web/" },
+          
         ]
       },
-      { text: "关于", link: "/about/" },
-      { text: "Github", link: "https://www.github.com/codeteenager" }
+      { text: "语言", items: [
+          { text: 'Chinese', link: '/language/chinese' },
+          { text: 'Japanese', link: '/language/japanese' }
+        ]},
+      { text: "Github", link: "https://www.github.com/codeteenager" },
+      { text: "Gitee", link: "https://www.github.com/codeteenager" }
     ],
     sidebar: {
       "/": ["first", "test.md"],
