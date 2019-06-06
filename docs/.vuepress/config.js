@@ -5,6 +5,7 @@ module.exports = {
       {
         text: "博文",
         items: [
+            { text: "默认", link: "/android/" },
           { text: "Android", link: "/android/" },
           { text: "ios", link: "/ios/" },
           { text: "Web", link: "/web/" }
@@ -14,10 +15,10 @@ module.exports = {
       { text: "Github", link: "https://www.github.com/codeteenager" }
     ],
     sidebar: {
-      "/": ["", "test.md"],
-      "/android/": ["", "/android/android"],
-      "/ios/": [""],
-      "/web/": [""]
+      "/": ["first", "test.md"],
+      "/android/": ["/android/android"],
+      "/ios/": ["first"],
+      "/web/": ["first"]
     },
     sidebarDepth: 2,
     lastUpdated: "Last Updated"
